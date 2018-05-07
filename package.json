@@ -43,7 +43,8 @@
     "array.partial": "^1.0.4",
     "classnames": "^2.2.5",
     "lodash.debounce": "^4.0.8",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react-fontawesome": "^1.6.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.0",

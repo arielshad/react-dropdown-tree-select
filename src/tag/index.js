@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import cn from 'classnames/bind'
 import styles from './index.css'
+import FontAwesome from 'react-fontawesome'
 
 const cx = cn.bind(styles)
 
@@ -19,7 +20,7 @@ const Tag = props => {
     <span className={cx('tag')}>
       {label}
       <button onClick={onClick} className={cx('tag-remove')} type="button">
-        x
+        <FontAwesome name='times'/>
       </button>
     </span>
   )
